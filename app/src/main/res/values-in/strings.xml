@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikasi Cuaca</string>
+    <string name="welcome_title">Aplikasi Cuaca</string>
+    <string name="welcome_subtitle">Masukkan nama kota untuk melihat cuaca</string>
+    <string name="city_hint">Nama Kota</string>
+    <string name="city_placeholder">Contoh: Jakarta, London, Tokyo</string>
+    <string name="check_weather_button">Cek Cuaca</string>
+    <string name="loading">Memuat...</string>
+    <string name="weather_info">Informasi Cuaca untuk %s</string>
+    <string name="enter_city_prompt">Masukkan nama kota di atas untuk mendapatkan informasi cuaca</string>
+    <string name="ready_to_search">Klik \'Cek Cuaca\' untuk mencari %s</string>
+    <string name="city_label">Kota</string>
+    <string name="temperature_label">Suhu</string>
+    <string name="humidity_label">Kelembaban</string>
+    <string name="description_label">Deskripsi</string>
+
+    <!-- String baru untuk fitur lokasi dan UI tambahan -->
+    <string name="current_location">Lokasi Saat Ini</string>
+    <string name="use_my_location">Gunakan Lokasi Saya</string>
+    <string name="location_permission_required">Izin lokasi diperlukan untuk menampilkan cuaca di lokasi Anda</string>
+    <string name="enable_location_permission">Aktifkan izin lokasi di pengaturan perangkat untuk menggunakan fitur ini</string>
+    <string name="location_error">Gagal mendapatkan data lokasi</string>
+    <string name="network_error">Error jaringan: Periksa koneksi internet Anda</string>
+    <string name="unknown_error">Error tak terduga: %s</string>
+    <string name="city_not_found">Kota \'%s\' tidak ditemukan</string>
+    <string name="too_many_requests">Terlalu banyak requests. Silakan coba lagi nanti.</string>
+    <string name="invalid_api_key">Invalid API Key</string>
+    <string name="http_error">HTTP Error: %d</string>
+
+    <!-- String untuk section titles -->
+    <string name="today_temperature">Suhu Hari Ini</string>
+    <string name="feels_like">Suhu Hari Ini Terasa Seperti</string>
+    <string name="seven_day_forecast">Prakiraan 7 Hari Ke Depan</string>
+
+    <!-- String untuk hari -->
+    <string name="today">Hari ini</string>
+    <string name="tomorrow">Besok</string>
+    <string name="monday">Senin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Kamis</string>
+    <string name="friday">Jumat</string>
+    <string name="saturday">Sabtu</string>
+    <string name="sunday">Minggu</string>
+
+    <!-- String untuk kualitas udara -->
+    <string name="air_quality">Kualitas udara</string>
+    <string name="air_quality_good">Baik</string>
+    <string name="air_quality_moderate">Sedang</string>
+    <string name="air_quality_unhealthy">Tidak Sehat</string>
+
+    <!-- String untuk kondisi cuaca -->
+    <string name="weather_clear">Cerah</string>
+    <string name="weather_clouds">Berawan</string>
+    <string name="weather_rain">Hujan</string>
+    <string name="weather_drizzle">Gerimis</string>
+    <string name="weather_thunderstorm">Badai Petir</string>
+    <string name="weather_snow">Salju</string>
+    <string name="weather_mist">Berkabut</string>
+    <string name="weather_unknown">Tidak diketahui</string>
+
+    <!-- String untuk pesan suhu terasa seperti -->
+    <string name="feels_like_hotter">panas</string>
+    <string name="feels_like_colder">dingin</string>
+    <string name="feels_like_message">Suhu terasa seperti %d°C. Kelembapan %d%% membuat suhu terasa lebih %s dari yang sebenarnya. Disarankan untuk minum air yang cukup dan hindari aktivitas berat di luar ruangan.</string>
+
+    <!-- String untuk empty states -->
+    <string name="no_data_title">Belum Ada Data Cuaca</string>
+    <string name="no_data_message">Masukkan nama kota atau aktifkan izin lokasi untuk melihat cuaca di lokasi Anda</string>
+    <string name="search_ready_message">Klik tombol \'Cek Cuaca\' untuk melihat cuaca di %s</string>
+
+    <!-- String untuk error states -->
+    <string name="error_title">Terjadi Kesalahan</string>
+    <string name="retry_button">Coba Lagi</string>
+
+    <!-- String untuk aksesibilitas -->
+    <string name="location_icon_desc">Gunakan Lokasi Saat Ini</string>
+    <string name="error_icon_desc">Error</string>
+    <string name="info_icon_desc">Informasi</string>
+    <string name="weather_icon_desc">Ikon Cuaca</string>
+    <string name="no_data_icon_desc">Tidak Ada Data</string>
+
+    <!-- Error Messages -->
+    <string name="error_city_empty">Nama kota tidak boleh kosong</string>
+    <string name="error_city_not_found">Kota tidak ditemukan</string>
+    <string name="error_location_not_found">Lokasi tidak ditemukan</string>
+    <string name="error_network">Kesalahan jaringan</string>
+    <string name="error_too_many_request">Terlalu banyak permintaan</string>
+    <string name="error_invalid_api_key">Kunci API tidak valid</string>
+    <string name="error_http">Kesalahan HTTP</string>
+    <string name="error_unexpected">Kesalahan tak terduga</string>
+    <string name="error_location_failed">Gagal mendapatkan lokasi</string>
+    <string name="error_location_permission">Izin lokasi diperlukan</string>
+
+    <!-- Titles -->
+    <string name="title_today_temperature">Suhu Hari Ini</string>
+    <string name="title_feels_like">Terasa Seperti</string>
+    <string name="title_7day_forecast">Ramalan 7 Hari</string>
+
+    <!-- Units (jika diperlukan) -->
+    <string name="unit_temperature">°C</string>
+    <string name="unit_percentage">%</string>
+
+    <string name="time_now">Sekarang</string>
+
+    <string name="baik">Baik</string>
+    <string name="sedang">Sedang</string>
+    <string name="tidaksehat">Tidak Sehat</string>
+</resources>
