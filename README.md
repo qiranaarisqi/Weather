@@ -20,8 +20,5 @@ Menunjukkan cuaca untuk beberapa hari ke depan, cocok untuk merencanakan aktivit
   <img src="app/src/main/res/drawable/readme1.jpg" width="300" alt="Screenshot">
 </p>
 
-3. Bisa Landscape
-   <p align="center">
-  <img src="app/src/main/res/drawable/readme3.jpg" width="300" alt="Screenshot">
-</p>
+
 
